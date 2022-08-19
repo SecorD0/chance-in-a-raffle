@@ -16,7 +16,7 @@ def comb(n, k):
     return 0
 
 
-class Window(QtWidgets.QWidget, Ui_main_window):
+class Main_window(QtWidgets.QWidget, Ui_main_window):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
