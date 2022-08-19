@@ -64,7 +64,7 @@ pyuic5 uis/main.ui -o windows/interface/main.py
 
 ⠀If you want to build the EXE file by yourself, use the command:
 ```sh
-pyinstaller app.py -wFn chance-in-a-raffle -i images/icons/app.ico --add-binary "images/icons;.images/icons"
+pyinstaller app.py -wFn chance-in-a-raffle -i images/icons/app.ico --add-binary "images/icons;images/icons"
 ```
 
 <h1><p align="center">Report a bug or suggest an idea</p></h1>

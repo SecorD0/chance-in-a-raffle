@@ -23,7 +23,7 @@ class Window(QtWidgets.QWidget, Ui_main_window):
 
         # --- Window setting
         self.setFixedSize(280, 145)
-        self.setWindowIcon(QtGui.QIcon(resource_path('.images/icons/app.ico')))
+        self.setWindowIcon(QtGui.QIcon(resource_path('images/icons/app.ico')))
 
         # --- Button signals
         self.pushButton_calculate.clicked.connect(self.calculate)
